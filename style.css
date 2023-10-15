@@ -1,0 +1,53 @@
+.card{
+    background-color: greenyellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    max-width: 15rem;
+    border-radius:0.5rem;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px 0px green;
+}
+#student-list{
+   justify-content:center;
+   gap: 1rem;
+   display:grid;
+   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+}
+span{
+    font-weight: bold;
+    font-size: large;
+}
+.btn{
+    background-color: red;
+    border:none;
+    color:aliceblue;
+    padding: 7px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+}
+.input-text{
+    border-radius:7px;
+    height: 2rem;
+    width:50%;
+    font-size:18px;
+    margin:12px;
+    padding:7px;
+}
+.form-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1 rem;
+    margin:12px;
+    border:5px solid black;
+    padding:15px;
+    background-color: rgb(34, 33, 33);
+    color:aliceblue;
+}
